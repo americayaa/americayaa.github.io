@@ -84,3 +84,30 @@
     border-radius: 10px;
     font: bolder;
 }
+
+.websites {
+    padding: 20px 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.349);
+}
+
+.websites button {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 20px 30px;
+    border-radius: 10px;
+    font: bold;
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.websites button:hover {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    padding: 20px 40px;
+    border-radius: 10px;
+    font: bolder;
+}
