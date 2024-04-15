@@ -111,3 +111,13 @@
     border-radius: 10px;
     font: bolder;
 }
+
+@media(max-width: 360px){
+    .div2 {
+        height: 70px;
+    }
+    .div2 p {
+        font-size: smaller;
+        height: 5px;
+    }
+}
