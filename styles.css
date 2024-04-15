@@ -120,4 +120,13 @@
         font-size: smaller;
         height: 5px;
     }
+    .websites button {
+        height: 60px;
+        font-size: smaller;
+    }
+    
+    .websites button:hover {
+        height: 60px;
+        font-size: smaller;
+    }
 }
