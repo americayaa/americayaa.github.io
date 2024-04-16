@@ -1,132 +1,84 @@
-.background {
-    background-color: rgb(39, 38, 49);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    min-height: 100vh;
-    overflow: hidden;
-}
-
-.div1 {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    flex-direction: column;
-}
-
-.div1 h1 {
-    color: aliceblue;
+*{
+    margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
 }
 
-.div1 p {
-    color: aliceblue;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-
-
-.asa1 {
-    border-radius: 20%;
-    width: 200px;
-}
-
-.div2 {
-    background-color: rgba(0, 0, 0, 0.192);
-    position: fixed;
-    bottom: 0;
-    left: 0;
+.bg {
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.469625350140056) 0%, rgba(0,0,0,1) 100%), url(Images/Goober.jpg);
     width: 100%;
-    height: 110px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    padding: 10px 0px;
-}
-.div2 p {
-    color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    justify-content: center;
 }
 
-.theotherstuff {
-    background-color: rgba(0, 0, 0, 0.185);
-    bottom: 0;
-    left: 0;
-    width: 100%;
+.rectangle {
+    background-color: rgba(0, 0, 0, 0.418);
+    border-radius: 20px;
+    border: 2px solid white;
+    width: 50vw;
+    height: 35%;
+
+    position: absolute;
+
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: row;
+    justify-content: center;
+    flex-direction: column;
     gap: 20px;
-    
-    padding: 20px;
 }
 
-.theotherstuff button {
-    background-color: rgba(255, 255, 255, 0);
-    color: white;
-    border: 2px solid rgb(255, 255, 255);
-    padding: 10px 20px;
-    border-radius: 10px;
-    font: bold;
-    transition: 0.3s;
+.rectangle h1 {
+    color: rgb(255, 255, 255);
+    font-size: 4vw;
+    font-weight: bolder;
 }
 
-.theotherstuff button:hover {
+.rectangle p {
+    color: rgb(198, 200, 201);
+    font-size: large;
+    text-align: center;
+}
+
+.image {
+    position: absolute;
+    height: 10%;
+    border-radius: 50%;
+    border: 2px solid white;
+    top: 2%;
+}
+
+.button {
+    background-color: rgba(0, 0, 0, 0.966);
+    color: aliceblue;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 2% 20%;
+    transition: 0.5s;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
     cursor: pointer;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    border: 2px solid rgb(255, 255, 255);
-    padding: 10px 30px;
-    border-radius: 10px;
-    font: bolder;
 }
 
-.websites {
-    padding: 20px 20px;
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.349);
+.icon {
+    background-color: transparent;
+    border: 0;
 }
 
-.websites button {
-    background-color: rgba(255, 255, 255, 0);
-    color: white;
-    border: 2px solid rgb(255, 255, 255);
-    padding: 20px 30px;
-    border-radius: 10px;
-    font: bold;
-    font-size: 25px;
-    transition: 0.3s;
+.icon img {
+    height: 1vw;
 }
 
-.websites button:hover {
+.icon:hover {
     cursor: pointer;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    border: 2px solid rgb(255, 255, 255);
-    padding: 20px 40px;
-    border-radius: 10px;
-    font: bolder;
-}
-
-@media(max-width: 360px){
-    .div2 {
-        height: 70px;
-    }
-    .div2 p {
-        font-size: smaller;
-        height: 5px;
-    }
-    .websites button {
-        height: 60px;
-        font-size: smaller;
-    }
-    
-    .websites button:hover {
-        height: 60px;
-        font-size: smaller;
-    }
 }
