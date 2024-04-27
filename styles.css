@@ -177,9 +177,10 @@
 }
 
 .linkssection {
-    height: 40vw;
+    height: 100vw;
     width: 100%;
-    background-color: black;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,0.427608543417367) 0%, rgba(0,0,0,1) 50%), url(Images/muh-cat.png);
 
     display: flex;
     flex-direction: column;
