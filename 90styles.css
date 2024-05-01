@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.bg {
+    padding: 5vh 0;
+    background-image: url(./old/space.gif);
+
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.underconstruction {
+    width: 30vh;
+}
+
+.starline {
+    width: 70vh;
+}
+
+.welcome {
+    width: 50vh;
+}
+
+.sideads {
+    position:fixed;
+    right: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+}
+
+.sideads img {
+    width: 12vh;
+}
+
+.bg p {
+    font-size: 2vh;
+}
+
+.gifs {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+
+.gifs2 {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+
+.gifs img {
+    height: 5vh;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.pink {
+    color: pink;
+}
+
+.green {
+    color: green;
+}
+
+.bg2 {
+    padding: 5vh 0;
+    background-image: url(./old/bg_water.gif);
+
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3vh;
+}
