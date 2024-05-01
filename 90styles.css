@@ -31,6 +31,7 @@
 
 .sideads {
     position:fixed;
+    top: 15px;
     right: 15px;
 
     display: flex;
@@ -81,13 +82,19 @@
 
 .bg2 {
     padding: 5vh 0;
-    background-image: url(./old/bg_water.gif);
+    background-image: url(./old/animated_background_large.gif);
 
     width: 100%;
     height: auto;
+
+    overflow-y: auto;
 
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 3vh;
+}
+
+.evaad {
+    width: 10vw;
 }

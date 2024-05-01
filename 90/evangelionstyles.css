@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+.bg {
+    background-image: url(/old/eva/reimoongrande.jpg);
+
+    width: 100%;
+    height: auto;
+
+    overflow-y: auto;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.blue {
+    color: aqua;
+}
+
+.hwss {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.midi {
+    color: rgb(247, 42, 247);
+}
+
+.evapic {
+    width: 20vw;
+}
+
+.darkblue {
+    color: blue;
+}
