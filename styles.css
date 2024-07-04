@@ -31,3 +31,8 @@ a p{
 a p:hover{
     color: rgb(255, 255, 255);
 }
+
+img{
+    width: 20vw;
+    border-radius: 1vw;
+}
